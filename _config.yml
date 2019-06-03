@@ -8,7 +8,7 @@ logo_url:           https://avatars0.githubusercontent.com/u/22844175?v=4 # Get 
 url:                https://heiswayi.github.io # main url
 baseurl:            /yuqi-shi
 permalink:          /:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           PST8PDT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
@@ -24,8 +24,9 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-
+remote_theme: heiswayi/the-plain
 
 defaults:
   -
